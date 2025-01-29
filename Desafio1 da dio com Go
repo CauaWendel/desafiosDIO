@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+
+const ebulicaoK = 373.2
+
+func main() {
+	K := ebulicaoK
+	C := ebulicaoK - 273
+	fmt.Printf("a temperatura de ebulição em Kelvin é: %g  e a temperatura de ebulição em celsius é: %g", K, C)
+}
